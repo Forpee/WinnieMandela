@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <footer className=" bg-blue-450 mt-32 pt-10 overflow-hidden text-white ">
+        <footer className=" bg-blue-450 mt-16  pt-10 overflow-hidden text-white ">
         <div className="w-screen sm:flex justify-evenly">
           <div className=" sm:w-1/4">
             <hr className="border-1 border-white"></hr>

@@ -31,7 +31,7 @@ export default function Second({ sel }) {
         ut aliquip ex ea commodo consequat.
       </p>
 
-      <div className="h-full w-full overflow-x-hidden flex overflow-hidden ">
+      <div className="h-full w-full overflow-x-hidden flex overflow-hidden pb-32 ">
         <div ref={imageRef} className="h-1/2 my-auto mx-auto">
           <img
             alt="wm vase"
