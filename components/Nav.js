@@ -58,7 +58,7 @@ export default function Nav({ blue }){
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-blue-900 inline-flex items-center justify-center p-2 rounded-md text-blue-400 hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
                   aria-controls="mobile-menu"
                   aria-expanded="false"
                 >
@@ -112,38 +112,38 @@ export default function Nav({ blue }){
           >
             {(ref) => (
               <div className="md:hidden" id="mobile-menu">
-                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div ref={ref} className={blue ? "px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white " : "px-2 pt-2 pb-3 space-y-1 sm:px-3 text-blue-450 "} >
                   <a
                     href="/"
-                    className="hover:bg-gray-700 text-gray-300 block px-3 py-2 rounded-md text-base font-medium"
+                    className="hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Home
                   </a>
   
                   <a
                     href="/events"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className=" hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Events
                   </a>
   
                   <a
                     href="/newsfeed"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className=" hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Newsfeed
                   </a>
   
                   <a
                     href="/about"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className=" hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     About us
                   </a>
   
                   <a
                     href="/contact"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className=" hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Contact Us
                   </a>

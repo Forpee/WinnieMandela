@@ -16,7 +16,7 @@ export default function ContactUs() {
       <div className="bg-blue-250 flex h-96 mb-16 ">
         <h1 className="m-auto text-7xl text-white">CONTACT US</h1>
       </div>
-      <div className=" md:flex justify-evenly">
+      <div className=" md:flex justify-evenly md:px-0 px-4">
         <div className='md:max-w-md'>
           <h1 className="text-5xl text-blue-350 mt-8 text-center">
             GET IN TOUCH

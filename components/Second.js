@@ -35,7 +35,7 @@ export default function Second({ sel }) {
         <div ref={imageRef} className="h-1/2 my-auto mx-auto">
           <img
             alt="wm vase"
-            className="mx-auto vaseImage h-full "
+            className="mx-auto vaseImage h-full z-10 "
             src="https://res.cloudinary.com/bobu/image/upload/v1618732573/wmp/vase-removebg-preview_1_xdxq8q.png"
           ></img>
         </div>

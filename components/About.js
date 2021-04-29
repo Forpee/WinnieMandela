@@ -12,9 +12,9 @@ export default function About( {el} ) {
           />
           <p>WINNIE MADIKIZELA MANDELA PRODUCTIONS</p>
         </div>
-        <div className="h-32 vl mx-auto"></div>
+        <div className="h-8 sm:h-32 vl mx-auto"></div>
         <div className="py-4">
-          <p className="w-96">
+          <p className="w-96 sm:px-0 pl-4 pr-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

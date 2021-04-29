@@ -7,7 +7,7 @@ export default function About() {
       <div className="bg-blue-250 flex h-96 mb-16">
         <h1 className="m-auto text-7xl text-white">ABOUT US</h1>
       </div>
-      <div className="container mx-auto px-32">
+      <div className="container mx-auto px-4 md:px-32">
         <h1 className="text-blue-250 text-3xl">WHO WE ARE</h1>
         <br />
         <p>
@@ -22,7 +22,7 @@ export default function About() {
         <br />
         <h1 className="text-blue-250 text-5xl mb-16 mt-8 text-center">OUR TEAM</h1>
         <br />
-        <div className="grid grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           <div className=''>
             <img
               className="rounded-full mx-auto h-32 w-32"
@@ -49,8 +49,8 @@ export default function About() {
           </div>
         
         </div>
-        <div className='flex justify-evenly my-32'>
-        <div className=''>
+        <div className='md:flex justify-evenly md:my-32'>
+        <div className='md:my-0 my-16'>
             <img
               className="rounded-full mx-auto h-32 w-32"
               src="https://res.cloudinary.com/bobu/image/upload/v1618742861/wmp/wm_f8xmym.jpg"
